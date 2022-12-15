@@ -1,5 +1,5 @@
 <?php
-$data=yaml_parse_file('data/experience.yml');
+$data=yaml_parse_file('../data/experience.yml');
 
 /*echo "<pre>";
 print_r($data);
