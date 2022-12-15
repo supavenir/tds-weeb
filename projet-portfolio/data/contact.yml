@@ -1,4 +1,8 @@
-#contact
--
-    github: https://github.com/supavenir/tds-weeb
-    linkedin: https://www.linkedin.com/in/vivien-lherondelle-72a5b8257/
+réseaux:
+  linkedin:
+      url: https://www.linkedin.com/in/vivien-lherondelle-72a5b8257/
+      icone: image/linkdin.jpg
+  github:
+      url: https://github.com/vivienlherondelle
+      icone: image/github.png
+ 

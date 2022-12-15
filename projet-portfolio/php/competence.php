@@ -8,7 +8,8 @@ echo "</pre>";*/
 echo "<h1>COMPETENCE</h1>";
 foreach($data as $competence){
     echo "<div>";
-    echo $competence["type"]. "<br />";
+    echo $competence["type"]. "<br />";  
     echo $competence["niveau"]. "<br />";
     echo "</div>";
 }
+?>
