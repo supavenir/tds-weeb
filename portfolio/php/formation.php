@@ -13,4 +13,6 @@ foreach($data as $formation){
     echo $formation['option']."<br />";
     echo $formation["etablissement"]. " à ".$formation["lieu"]."<br />";
     echo "</div>";
+
 }
+echo '<img class="img" src="image/education.png">';

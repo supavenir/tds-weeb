@@ -1,7 +1,35 @@
 -
     type: html
-    niveau: 80
+    niveau: 80%
     
 -
     type: php
-    niveau: 60
+    niveau: 60%
+
+-
+    type: css
+    niveau: 50%
+-
+    type: js
+    niveau: 15%
+-
+    type: yaml
+    niveau: 90%
+
+-
+    type: word
+    niveau: 80%
+
+-
+    type: excel
+    niveau: 80%
+
+-
+    type: powerpoint
+    niveau: 70%
+
+
+    
+    
+    
+    

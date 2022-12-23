@@ -7,43 +7,39 @@ echo "</pre>";*/
 
 echo "<h1> CONTACT</h1>";
 ?>
-<div class="form">
-<form name="mon-formulaire1" action="page-envoi.html" method="get">
+
+<form action="php/mail.php" method="POST">
+
 <p>
-   <input type="radio" name="civi" value="Mme" /> Madame
-   <input type="radio" name="civi" value="Mlle" /> Mademoiselle
-   <input type="radio" name="civi" value="Mr" /> Monsieur
+   Votre prénom et votre nom :<br />
+   <input type="text" name="nom" value="" placeholder="Prenom et nom"/>
 </p>
 <p>
-   Votre prénom :<br />
-   <input type="text" name="prenom" value="" />
-</p>
-<p>
-   Votre nom :<br />
-   <input type="text" name="nom" value="" />
-</p>
-<p>
-   Votre mot de passe :<br />
-   <input type="password" name="passe" value="" />
+   Votre e-mail :<br />
+   <input type="text" name="mail" value="" placeholder="mail de l'emetteur"/>
 </p>
 <p>
    Vous êtes<br />
-   <select name="profil">
-      <option value="parti">Un particulier</option>
-      <option value="profe" selected="selected">Un professionnel</option>
-      <option value="insti">Un institutionnel</option>
+   <select name="sexe">
+      <option value="1">homme</option>
+      <option value="2" selected="selected">femme</option>
+      <option value="3">MR Morin</option>
    </select>
 </p>
 <p>
-   Votre message :<br />
-   <textarea name="le-message" rows="6" cols="40">Vous pouvez saisir ici un message.</textarea>
+   Objet du message :<br />
+   <input name="objet" rows="6" placeholder="Objet du message"/>
+</p>
+<p>
+  Contenu du message :<br />
+   <textarea name="contenu" rows="6" cols="81" placeholder="contenu du message"></textarea>
 </p>
 <p>
    <input type="submit" value="Envoyer" />
-   <input type="reset" value="Annuler" />
 </p>
 </form>
-</div>
+
+
 
 
 <?php

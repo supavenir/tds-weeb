@@ -6,3 +6,9 @@ réseaux:
       url: https://github.com/vivienlherondelle
       icone: image/github.png
  
+
+titre : Contacts
+nom : Nom prénom
+mail : Adresse Mail
+objet : Objet
+contenu : Message

@@ -15,3 +15,4 @@ foreach($data as $experience){
     echo $experience["descriptif"]. "<br />";
     echo "</div>";
 }
+echo '<img class="img" src="image/capfun.png">';

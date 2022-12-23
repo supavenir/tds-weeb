@@ -11,5 +11,5 @@ foreach($data as $apropos){
     echo "<div>";
     echo $apropos["info"]. "<br />";
     echo "</div>";
-
+    echo '<img class="img" src="image/info.png">';
 }
