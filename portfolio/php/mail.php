@@ -15,10 +15,10 @@ try{
     $mail->IsSMTP(); 
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true; 
-    $mail->Username = $Cookie['mail'];
-    $mail->Password = $Cookie['mdp'];
+    $mail->Username = 'vivienmailportfolio@gmail.com';
+    $mail->Password = 'bcoytkqsmpxrwtyb';
     $mail->SMTPSecure = 'STARTTLS'; 
-    $mail->Port = 465;
+    $mail->Port = 587;
     $mail->CharSet = 'UTF-8';
 
     $mail->setFrom($_POST['mail'], $_POST['name']);
