@@ -18,7 +18,7 @@ try{
     $mail->Username = 'vivienmailportfolio@gmail.com';
     $mail->Password = 'bcoytkqsmpxrwtyb';
     $mail->SMTPSecure = 'STARTTLS'; 
-    $mail->Port = 587;
+    $mail->Port = 465;
     $mail->CharSet = 'UTF-8';
 
     $mail->setFrom($_POST['mail'], $_POST['name']);
