@@ -18,7 +18,7 @@ try{
     $mail->Username = $Cookie['mail'];
     $mail->Password = $Cookie['mdp'];
     $mail->SMTPSecure = 'STARTTLS'; 
-    $mail->Port = 587;
+    $mail->Port = 465;
     $mail->CharSet = 'UTF-8';
 
     $mail->setFrom($_POST['mail'], $_POST['name']);
