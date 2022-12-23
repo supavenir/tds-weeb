@@ -30,7 +30,6 @@
             
             }
             ?>
-        <p>salut</p>
         </main>
     </body>
 </html>
