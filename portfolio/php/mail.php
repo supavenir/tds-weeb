@@ -16,9 +16,9 @@ try{
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true; 
     $mail->Username = 'vivienmailportfolio@gmail.com';
-    $mail->Password = 'bcoytkqsmpxrwtyb';
+    $mail->Password = 'Table1234@';
     $mail->SMTPSecure = 'STARTTLS'; 
-    $mail->Port = 465;
+    $mail->Port = 587;
     $mail->CharSet = 'UTF-8';
 
     $mail->setFrom($_POST['mail'], $_POST['name']);
